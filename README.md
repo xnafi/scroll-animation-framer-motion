@@ -36,11 +36,13 @@
   <p>
     Import the <code>ScrollAnimation</code> component into your project and wrap any content you want to animate:
   </p>
+  <code>
 import React from "react";
 import ScrollAnimation from "scroll-animation-framer-motion";
 
 const MyComponent = () => {
 return (
+
 <div>
 <ScrollAnimation direction="fadeIn" delay={0.3}>
 <h2>Scroll to Animate</h2>
@@ -50,6 +52,7 @@ return (
 };
 
 export default MyComponent;
+</code>
 
   <h3>Props</h3>
   <table border="1">
