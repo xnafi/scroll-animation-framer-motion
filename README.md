@@ -43,11 +43,14 @@ import ScrollAnimation from "scroll-animation-framer-motion";
 const MyComponent = () => {
 return (
 
+<!--
 <div>
 <ScrollAnimation direction="fadeIn" delay={0.3}>
 <h2>Scroll to Animate</h2>
 </ScrollAnimation>
 </div>
+-->
+
 );
 };
 
@@ -99,12 +102,14 @@ export default MyComponent;
   </table>
 
   <h2>Example</h2>
+<code>
 import React from "react";
 import ScrollAnimation from "scroll-animation-framer-motion";
 
 const ScrollComponent = () => {
 return (
 
+<!-- 
 <div>
 <ScrollAnimation direction="left" delay={0.5} amount={0.4}>
 <div className="content">This is a left slide animation!</div>
@@ -113,11 +118,12 @@ return (
 <ScrollAnimation direction="zoomIn" delay={0.3}>
 <div className="content">This is a zoom-in animation!</div>
 </ScrollAnimation>
-</div>
+</div> 
+-->
 
 );
 };
-
+</code>
   <h2>Contributing</h2>
   <p>
     If you find this library helpful, consider giving it a ⭐ on GitHub! Your contributions and feedback are always welcome.
