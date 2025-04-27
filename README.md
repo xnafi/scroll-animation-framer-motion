@@ -36,12 +36,11 @@
   <p>
     Import the <code>ScrollAnimation</code> component into your project and wrap any content you want to animate:
   </p>
-  <pre>import React from "react";
+import React from "react";
 import ScrollAnimation from "scroll-animation-framer-motion";
 
 const MyComponent = () => {
 return (
-
 <div>
 <ScrollAnimation direction="fadeIn" delay={0.3}>
 <h2>Scroll to Animate</h2>
@@ -97,7 +96,7 @@ export default MyComponent;
   </table>
 
   <h2>Example</h2>
-  <pre>import React from "react";
+import React from "react";
 import ScrollAnimation from "scroll-animation-framer-motion";
 
 const ScrollComponent = () => {
@@ -108,15 +107,13 @@ return (
 <div className="content">This is a left slide animation!</div>
 </ScrollAnimation>
 
-      <ScrollAnimation direction="zoomIn" delay={0.3}>
-        <div className="content">This is a zoom-in animation!</div>
-      </ScrollAnimation>
-    </div>
+<ScrollAnimation direction="zoomIn" delay={0.3}>
+<div className="content">This is a zoom-in animation!</div>
+</ScrollAnimation>
+</div>
 
 );
 };
-
-</pre>
 
   <h2>Contributing</h2>
   <p>
