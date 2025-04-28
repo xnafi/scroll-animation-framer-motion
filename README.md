@@ -113,6 +113,11 @@ const ScrollComponent = () => {
   );
 };</code></pre>
 
+  <p>
+    <strong>👉 See a live example here:</strong> 
+    <a href="https://scroll-animation-example.vercel.app/" target="_blank" rel="noopener noreferrer">https://scroll-animation-example.vercel.app/</a>
+  </p>
+
   <h2>Contributing</h2>
   <p>
     If you find this library helpful, consider giving it a ⭐ on GitHub! Your contributions and feedback are always welcome.
