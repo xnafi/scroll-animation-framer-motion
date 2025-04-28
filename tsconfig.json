@@ -1,15 +1,15 @@
 {
   "compilerOptions": {
-    "outDir": "./dist",
-    "declaration": true,
-    "declarationDir": "./dist",
-    "emitDeclarationOnly": false,
+    "outDir": "dist",
+    "target": "es6",
+    "module": "esnext",
     "moduleResolution": "node",
-    "target": "ESNext",
-    "module": "ESNext",
+    "declaration": true,
+    "declarationDir": "dist",
     "jsx": "react-jsx",
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "strict": true
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist"]

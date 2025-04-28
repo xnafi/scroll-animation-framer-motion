@@ -1,6 +1,6 @@
 {
   "name": "scroll-animation-framer-motion",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A simple, reusable Scroll Animation component using Framer Motion and React.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -17,6 +17,7 @@
   },
   "scripts": {
     "build": "tsc",
+    "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -32,13 +33,15 @@
   "author": "Forhad Khan",
   "license": "MIT",
   "type": "module",
-  "dependencies": {
-    "framer-motion": "^12.9.2",
-    "react": "^19.1.0"
+  "peerDependencies": {
+    "react": ">=17.0.0 <20.0.0",
+    "framer-motion": "^6.0.0 || ^7.0.0 || ^10.0.0 || ^12.0.0"
   },
   "devDependencies": {
     "@types/node": "^22.15.2",
-    "@types/react": "^19.1.2",
-    "typescript": "^5.8.3"
+    "@types/react": "^18.2.15",
+    "typescript": "^5.8.3",
+    "react": "^18.2.0",
+    "framer-motion": "^10.16.4"
   }
 }
