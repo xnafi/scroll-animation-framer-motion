@@ -80,6 +80,6 @@ const ScrollAnimation = ({ children, delay = 0, direction = "right", className =
             },
         };
     }
-    return (_jsx(motion.div, { variants: slideVariants, initial: "initial", whileInView: "animate", viewport: { once, amount }, className: `${className} block overflow-hidden`, children: children }));
+    return (_jsx("div", { className: "overflow-hidden", children: _jsx(motion.div, { variants: slideVariants, initial: "initial", whileInView: "animate", viewport: { once, amount }, className: `${className} block overflow-hidden`, children: children }) }));
 };
 export default ScrollAnimation;

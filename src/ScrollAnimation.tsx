@@ -104,15 +104,17 @@ const ScrollAnimation: React.FC<ScrollAnimationProps> = ({
   }
 
   return (
-    <motion.div
-      variants={slideVariants}
-      initial="initial"
-      whileInView="animate"
-      viewport={{ once, amount }} // 👈 Using both props
-      className={`${className} block overflow-hidden`}
-    >
-      {children}
-    </motion.div>
+    <div className="overflow-hidden">
+      <motion.div
+        variants={slideVariants}
+        initial="initial"
+        whileInView="animate"
+        viewport={{ once, amount }} // 👈 Using both props
+        className={`${className} block overflow-hidden`}
+      >
+        {children}
+      </motion.div>
+    </div>
   );
 };
 
