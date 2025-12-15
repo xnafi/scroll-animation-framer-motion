@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Scroll Animation Framer Motion</title>
 </head>
 <body>
 
@@ -112,6 +111,11 @@ const ScrollComponent = () => {
     </div>
   );
 };</code></pre>
+
+  <p>
+    <strong>👉 See a live example here:</strong> 
+    <a href="https://scroll-animation-example.vercel.app/" target="_blank" rel="noopener noreferrer">https://scroll-animation-example.vercel.app/</a>
+  </p>
 
   <h2>Contributing</h2>
   <p>
