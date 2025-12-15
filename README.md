@@ -7,6 +7,11 @@
 <body>
 
   <h1>Scroll Animation Framer Motion</h1>
+  <h2>Example</h2>
+   <p>
+    <strong>👉 See a live example here:</strong> 
+    <a href="https://scroll-animation-example.vercel.app/" target="_blank" rel="noopener noreferrer">https://scroll-animation-example.vercel.app/</a>
+  </p>
 
   <h2>Introduction</h2>
   <p>
@@ -39,13 +44,14 @@
 import ScrollAnimation from "scroll-animation-framer-motion";
 
 const MyComponent = () => {
-  return (
-    <div>
-      <ScrollAnimation direction="fadeIn" delay={0.3}>
-        <h2>Scroll to Animate</h2>
-      </ScrollAnimation>
-    </div>
-  );
+return (
+
+<div>
+<ScrollAnimation direction="fadeIn" delay={0.3}>
+<h2>Scroll to Animate</h2>
+</ScrollAnimation>
+</div>
+);
 };
 
 export default MyComponent;</code></pre>
@@ -99,23 +105,20 @@ export default MyComponent;</code></pre>
 import ScrollAnimation from "scroll-animation-framer-motion";
 
 const ScrollComponent = () => {
-  return (
-    <div>
-      <ScrollAnimation direction="left" delay={0.5} amount={0.4}>
-        <div className="content">This is a left slide animation!</div>
-      </ScrollAnimation>
+return (
+
+<div>
+<ScrollAnimation direction="left" delay={0.5} amount={0.4}>
+<div className="content">This is a left slide animation!</div>
+</ScrollAnimation>
 
       <ScrollAnimation direction="zoomIn" delay={0.3}>
         <div className="content">This is a zoom-in animation!</div>
       </ScrollAnimation>
     </div>
-  );
-};</code></pre>
 
-  <p>
-    <strong>👉 See a live example here:</strong> 
-    <a href="https://scroll-animation-example.vercel.app/" target="_blank" rel="noopener noreferrer">https://scroll-animation-example.vercel.app/</a>
-  </p>
+);
+};</code></pre>
 
   <h2>Contributing</h2>
   <p>
