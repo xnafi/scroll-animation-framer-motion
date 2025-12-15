@@ -96,7 +96,7 @@ export default function ScrollAnimationShowcase() {
   );
 }
 
-/* ------------------ DATA ------------------ */
+/* ------------------ DATA ---------------- */
 
 const sections = [
   {
